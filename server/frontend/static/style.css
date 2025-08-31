@@ -124,3 +124,9 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact_details {
+    text-align: center;
+    color: #2c51b9;
+    font-size: 15px;
+}
