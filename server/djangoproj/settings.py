@@ -30,10 +30,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://langewischl-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://langewischl-8000.'
+    + 'theiadockernext-0-labs-prod-theiak8s-4-tor01.'
+    + 'proxy.cognitiveclass.ai'
     ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://langewischl-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://langewischl-8000.'
+    + ''theiadockernext-0-labs-prod-theiak8s-4-tor01'
+    + '.proxy.cognitiveclass.ai'
     ]
 
 REST_FRAMEWORK = {
@@ -77,7 +81,8 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+                'django.contrib.messages.'
+                + 'context_processors.messages',
             ],
         },
     },
