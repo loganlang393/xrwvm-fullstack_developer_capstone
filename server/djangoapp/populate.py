@@ -1,8 +1,7 @@
 from .models import CarMake, CarModel
 
+
 def initiate():
-
-
     car_make_data = [
         {"name": "NISSAN", "description": "Great cars. Japanese technology"},
         {"name": "Mercedes", "description": "Great cars. German technology"},
@@ -48,9 +47,9 @@ def initiate():
         "car_make": car_make_instances[1]
       },
       {
-        "name": "C-Class", 
-        "type": "SUV", 
-        "year": 2023, 
+        "name": "C-Class",
+        "type": "SUV",
+        "year": 2023,
         "car_make": car_make_instances[1]
       },
       {
