@@ -35,8 +35,7 @@ ALLOWED_HOSTS = [
     + 'proxy.cognitiveclass.ai'
     ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://langewischl-8000."
-    + "'theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.a"'
+    "https://langewischl-8000.'theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.a"'
     ]
 
 REST_FRAMEWORK = {
